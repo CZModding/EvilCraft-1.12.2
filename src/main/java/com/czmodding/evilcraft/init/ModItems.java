@@ -2,6 +2,7 @@ package com.czmodding.evilcraft.init;
 
 import com.czmodding.evilcraft.items.ItemBasic;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -13,7 +14,7 @@ public class ModItems {
 static Item rubyGem;
 	
 	public static void init() {
-		rubyGem = new ItemBasic("ruby_gem");
+		rubyGem = new ItemBasic("ruby_gem").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64);
 	}
 	
 	@SubscribeEvent
