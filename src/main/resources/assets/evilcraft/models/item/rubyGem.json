@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "MODID:items/rubyGem"
+        "layer0": "evilcraft:items/rubyGem"
      },
      
     "display": {
