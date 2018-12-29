@@ -1,13 +1,14 @@
 package com.czmodding.evilcraft.init;
 
-import com.czmodding.evilcraft.items.ItemBasic;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraft.creativetab.CreativeTabs;
+
+import com.czmodding.evilcraft.items.ItemBasic;
 
 public class ModItems {
  
