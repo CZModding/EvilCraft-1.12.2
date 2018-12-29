@@ -1,5 +1,8 @@
 package com.czmodding.evilcraft;
 
+import com.czmodding.evilcraft.init.ModBlocks;
+import com.czmodding.evilcraft.init.ModItems;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -22,6 +25,8 @@ public class EvilCraft {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		System.out.println(Reference.MODID + ":init");
+		ModBlocks.init();
+		ModItems.init();
 	}
 	
 	@EventHandler
