@@ -1,7 +1,7 @@
 [
 {
   "modid": "ec",
-  "name": "Evil Craft",
+  "name": "EvilCraft",
   "description": "A mod based on the game SimpleCraft 2: Biomes",
   "version": "alpha1.0",
   "mcversion": "${1.12.2}",
